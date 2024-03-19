@@ -162,3 +162,19 @@ footer {
 .footer__links a {
     margin-bottom: 15px;
 }
+
+@keyframes rotation{
+    0% { 
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.about__sun-image{
+    height: 100px;
+    width: 100px;
+    animation: rotation 10s infinite linear;
+    position: absolute;
+}
