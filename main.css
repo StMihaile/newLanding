@@ -200,6 +200,9 @@ footer {
         width: 75px;
         height: 75px;
     }
+    .features {
+        padding: 50px 10px;
+    }
    
 
 }
@@ -241,4 +244,11 @@ footer {
     .footer__container {
         flex-direction: column;
     }
+    .features {
+        padding: 50px 10px;
+    }
+}
+.features {
+    background-color: #fff;
+    padding: 115px 60px;
 }
